@@ -1,2 +1,2 @@
-# DiForss.
+# DiForss
 crypto
