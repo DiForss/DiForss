@@ -1,7 +1,5 @@
 # DiForss
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Computer+science+student)](https://git.io/typing-svg)
-- uses: Platane/snk@v2
-  with:
     # github user name to read the contribution graph from (**required**)
     # using action context var `github.repository_owner` or specified user
     github_user_name: ${{ github.repository_owner }}
