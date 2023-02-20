@@ -24,3 +24,21 @@ Hello there 👋
 
 </body>
 </html>
+import React from 'react';
+
+function App() {
+  const [count, setCount] = React.useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return (
+    <div>
+      <h1>Счетчик: {count}</h1>
+      <button onClick={handleClick}>Увеличить</button>
+    </div>
+  );
+}
+
+export default App;
