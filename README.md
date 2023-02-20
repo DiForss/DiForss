@@ -17,28 +17,9 @@ Hello there 👋
 <body>
    
 <div id="header"> 
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/> 
-  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="300"/> 
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>  
   
 </div>
 
 </body>
 </html>
-import React from 'react';
-
-function App() {
-  const [count, setCount] = React.useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
-  return (
-    <div>
-      <h1>Счетчик: {count}</h1>
-      <button onClick={handleClick}>Увеличить</button>
-    </div>
-  );
-}
-
-export default App;
